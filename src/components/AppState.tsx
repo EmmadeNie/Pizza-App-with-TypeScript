@@ -1,7 +1,7 @@
 import React, { createContext, useReducer, useEffect } from "react";
 import { useContext } from "react";
 
-interface CartItem {
+export interface CartItem {
   id: number;
   name: string;
   price: number;

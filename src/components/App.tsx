@@ -7,6 +7,7 @@ import Cart from "./Cart";
 import AppStateProvider from "./AppState";
 
 const App = () => {
+ 
   return (
     <AppStateProvider>
       <div className={AppCSS.container}>
